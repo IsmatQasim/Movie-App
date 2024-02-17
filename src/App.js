@@ -5,14 +5,6 @@ import './App.css'
 
 // 95ff5330
 const API_URL = 'http://www.omdbapi.com?apikey=95ff5330'; 
-
-// const movie1 = {
-//     "Title": "Amazing Spiderman Syndrome",
-//     "Year": "2012",
-//     "imdbID": "tt2586634",
-//     "Type": "movie",
-//     "Poster": "N/A"
-// } 
 const App = () => {
 
   const [movies, setMovies] = useState([]);
